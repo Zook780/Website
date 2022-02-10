@@ -50,11 +50,6 @@ ul li a:hover
 {
     color: #ffffff;
 }
-*/
-/* Sarabuns */
-@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap');
-/* Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 *
 {
@@ -65,11 +60,11 @@ ul li a:hover
 .img
 {
     text-align: center;
-    padding-top: 30px;
 }
 
-.img img
+img
 {
+    padding-top: 30px;
     vertical-align: bottom;
     width: 250px;
     margin: 9px;

@@ -11,28 +11,14 @@
 
 }
 
-.head
+h1
 {
     text-align: center;
-}
-
-.head h1
-{
     font-family: 'Sarabun', sans-serif;
-    padding-top: 120px;
+    padding-top: 100px;
+    padding-bottom: 30px;
     color: #222725;
     font-size: 60px;
-}
-
-.head p
-{
-    padding-top: 20px;
-    padding-bottom: 30px;
-    color: #899878;
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    margin-left: 150px;
-    margin-right: 150px;
 }
 
 .divider
@@ -72,6 +58,7 @@ footer .linux
 
 img
 {
+    text-align: center;
     padding-top: 30px;
     vertical-align: bottom;
     width: 250px;

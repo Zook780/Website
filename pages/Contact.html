@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="../css/Contact.css" >
+  <link rel="icon" type="image/png" href="../img/favicon.ico">
   <meta name="description" content="" />
 </head>
 <body>
@@ -15,10 +16,27 @@
   </div>
   <div class="navbar">
     <ul>
-      <li><a href="/">[Home]</a></li>
-      <li><a href="/about">[About]</a></li>
-      <li><a href="/contact">[Contact]</a></li>
-      <li><a href="/blogs">[Blogs]</a></li>
+      <script>
+	function change_to_home(){
+	    window.location.href = "../index.html";
+	}
+
+	function change_to_about(){
+	    window.location.href = "About.html";
+	}
+
+	function change_to_contact(){
+	    window.location.href = "Contact.html";
+	}
+
+	function change_to_blogs(){
+	    window.location.href = "Blogs.html";
+	}
+      </script>
+      <li><a onclick="change_to_home()">[Home]</a></li>
+      <li><a onclick="change_to_about()">[About]</a></li>
+      <li><a onclick="change_to_contact()">[Contact]</a></li>
+      <li><a onclick="change_to_blogs()">[Blogs]</a></li>
       <li><a href="https://github.com/Pineapple518?tab=repositories">[Projects]</a></li>
       <li><a href="https://github.com/Pineapple518">[Github]</a></li>
     </ul> 
