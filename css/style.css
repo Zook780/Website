@@ -38,6 +38,7 @@ ul li
 
 ul li a
 {
+    cursor: pointer;
     text-decoration: none;
     color: #2F2F2F;
     margin: 20px;
