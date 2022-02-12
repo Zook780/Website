@@ -7,7 +7,11 @@
 {
     padding: 0;
     margin: 0;
-    background-image: url(https://cdn.lowgif.com/medium/0a1db283b4740c54-dark-grunge-gif-find-share-on-giphy.gif);
+    background-image: url(https://64.media.tumblr.com/cd32521bd2e4a07d3876500e31452554/tumblr_inline_nvn3ec20vF1rp2lgk_540.gif);
+    height: auto;
+    width: auto;
+    background-size: cover;
+    background-position: center; 
 }    
 
 .main
