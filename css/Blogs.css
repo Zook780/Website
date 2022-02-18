@@ -23,16 +23,24 @@ summary
 
 p
 {
+    text-align: center;
     font-size: 30px;
     padding-top: 20px;
+    padding-bottom: 20px;
     color: #899878;
     font-family: 'Poppins', sans-serif;
     margin-left: 120px;
     margin-right: 120px;
 }
 
+details p
+{
+    text-align: center;
+}
+
 h1
 {
+    text-align: center;
     font-family: 'Sarabun', sans-serif;
     color: #222725;
     padding-top: 90px;
