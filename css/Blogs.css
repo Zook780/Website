@@ -11,7 +11,7 @@
     background-image: url(https://cdn.lowgif.com/medium/0a1db283b4740c54-dark-grunge-gif-find-share-on-giphy.gif);
 }
 
-h1
+summary
 {
     text-align: center;
     font-family: 'Sarabun', sans-serif;
@@ -19,6 +19,24 @@ h1
     padding-bottom: 30px;
     color: #222725;
     font-size: 60px;
+}
+
+p
+{
+    font-size: 30px;
+    padding-top: 20px;
+    color: #899878;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+h1
+{
+    font-family: 'Sarabun', sans-serif;
+    color: #222725;
+    padding-top: 90px;
+    font-size: 55px;
 }
 
 .divider
