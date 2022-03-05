@@ -1,106 +1,80 @@
-/* Sarabuns */
-@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap');
-/* Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
 
-*
+body
 {
-    margin: 0;
-    padding: 0;
-    background-image: url(https://cdn.lowgif.com/medium/0a1db283b4740c54-dark-grunge-gif-find-share-on-giphy.gif); 
+    font-family: 'JetBrains Mono', monospace;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
-.head
+.navbar
 {
+    float: right;
     text-align: center;
+    padding-left: 55px;
+    background-color: #020202;
+    border: solid #ffffff 2px;
+    border-radius: 5px;
+    opacity: 98%;
 }
 
-.head h1
+.navbar ul li
 {
-    font-family: 'Sarabun', sans-serif;
-    padding-top: 120px;
-    color: #222725;
-    font-size: 60px;
-}
-
-.head p
-{
-    padding-top: 20px;
-    padding-bottom: 30px;
-    color: #899878;
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    margin-left: 120px;
-    margin-right: 120px;
-}
-
-.divider
-{
-    border: 2px solid #222725;
-}
-
-footer 
-{
-    padding-top: 40px;
-    text-align: center;
-}
-
-footer a
-{
-    margin: 10px;
-}
-
-footer p
-{
-    font-family: 'Poppins', sans-serif;
-    color: #899878;
-    padding-top: 15px;
-    font-size: 17px;
-}
-
-footer .linux
-{
-    height: auto;
-    width: 140px;
-}
-
-.img
-{
-    text-align: center;
-}
-
-img
-{
-    padding-top: 30px;
-    vertical-align: bottom;
-    width: 250px;
-    margin: 9px;
-}
-
-ul 
-{
-    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
     list-style-type: none;
+    font-size: 19px;
 }
 
-ul li
+.navbar ul li a
 {
-    display: inline-block;
-    padding-top: 60px;
-}
-
-ul li a
-{
+    font-family: 'JetBrains Mono', monospace;
+    color: #2D3142;
     cursor: pointer;
-    text-decoration: none;
-    color: #2F2F2F;
-    margin: 20px;
-    font-size: 30px;
-    font-family: 'Sarabun', sans-serif;
-    transition: 0.6s ease;
 }
 
-ul li a:hover
+.navbar ul p
 {
-    color: #ffffff;
+    font-family: 'JetBrains Mono', monospace;
+    color: #303030;
+    font-size: 20px;
+}
+
+.main
+{
+    opacity: 98%;
+    background-color: #020202;
+    margin-right: 300px;
+    border: solid #ffffff 2px;
+    border-radius: 5px;
+    padding-left: 13px;
+}
+
+.main h1
+{
+    font-family: 'JetBrains Mono', monospace;
+    color: #303030;
+    font-size: 27px;
+}
+
+.main p
+{
+    font-family: 'JetBrains Mono', monospace;
+    color: #f1f1f1;
+}
+
+footer
+{
+    float: left;
+}
+
+footer a img
+{
+    width: auto;
+    margin-top: 30px;
+    height: 30px;
+    border: solid #ffffff 2px;
+    border-radius: 5px;
+    background-color: #ffffff;
 }
