@@ -2,8 +2,7 @@
 
 body
 {
-    background-image: url("https://i.pinimg.com/originals/6f/14/cd/6f14cd3c1d93394346b17a363a7b0180.gif");
-    background-size: cover;
+    background-image: url("../img/background.gif");
     background-position: center;
     font-family: 'JetBrains Mono', monospace;
 }
@@ -12,75 +11,63 @@ body
 {
     opacity: 80%;
     text-align: center;
-    background-color: #1A1A1A;
-    border: 2px solid wheat;
-    border-radius: 9px;
+    background-color: #030203;
+    border: 2px solid #1A1A1A;
 }
 
 .navbar ul li
 {
     display: inline-block;
     cursor: pointer;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 .navbar ul li a
 {
-    color: #B6C649;
+    color: #9a898a;
     text-decoration: underline;     
 }
 
 .navbar ul p
 {
-    color: wheat;
+    color: #828871;
     font-size: 25px;
 }
 
 .main
 {
-    opacity: 90%;
+    opacity: 80%;
     padding-left: 20px;
     margin-top: 10px;
-    background-color: #1A1A1A;
-    border: 2px solid wheat;
-    border-radius: 9px;
+    background-color: #030203;
+    border: 2px solid #1A1A1A;
 }
 
 .main h1
 {
-    color: wheat;
+    color: #828871;
     font-size: 30px;
 }
 
 .main p
 {
-    color: wheat;
+    color: #9a898a;
     font-size: 22px;
 }
 
-.main p a
+.main img
 {
-    color: #B6C649;
-    text-decoration: underline;
-    cursor: pointer;  
-}
-
-footer
-{
-    padding-left: 20px;
-    margin-top: 50px;
-}
-
-footer p a
-{
-    color: #B6C649;
-    text-decoration: underline;
-}
-
-footer a img
-{
-    background-color: #1A1A1A;
-    border-radius: 7px;
     width: auto;
-    height: 40px;
+    height: 180px;
+}
+
+.main #think
+{
+    float: right;
+}
+
+footer p
+{
+    color: wheat;
+    font-size: 20px;
 }
