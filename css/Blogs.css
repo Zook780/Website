@@ -43,16 +43,36 @@ body
     border: 2px solid #1A1A1A;
 }
 
-.main details summary
+.main h1
 {
     color: #828871;
     font-size: 30px;
 }
 
-.main details p
+.main p
 {
     color: #9a898a;
     font-size: 22px;
+}
+
+.main li 
+{
+    margin-left: 10px;
+    font-size: 25px;
+    color: #828871;
+    cursor: pointer;
+}
+
+.main li a
+{
+    color: #9a899a;
+    text-decoration: underline
+}
+
+.main img
+{
+    width: auto;
+    height: 180px;
 }
 
 footer p

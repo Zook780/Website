@@ -18,7 +18,6 @@ body
 .navbar ul li
 {
     display: inline-block;
-    cursor: pointer;
     font-size: 25px;
 }
 
