@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
 
+*
+{
+    /* For Firefox(Scrollbar) */
+    scrollbar-color: #ffffff #131516;
+}
+
 body
 {
     background-image: url("../img/background.gif");
